@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(0, 0, 125);
-    --secondary-color: #d87300;
+    --secondary-color: orange;
     --accent1-color: rgb(6, 6, 6);
     --accent2-color: #F4F6F9;
     --heading-font: 'Montserrat', sans-serif;
@@ -16,6 +16,23 @@
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    place-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
 }
 
 header,
@@ -102,9 +119,62 @@ footer p {
     margin-bottom: 0;
     padding-bottom: 0px;
     color: var(--accent1-color);
+    grid-column: 2/3;
 }
 
 .socialmedia {
     margin-top: 0;
     padding-top: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.socialmedia img {
+    margin: 5px;
+    padding: 0;
+}
+
+.socialmedia a {
+    margin: 0;
+    padding: 0;
+}
+
+.contenthistory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+figure {
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 5px auto;
+}
+
+figure img {
+    width: 140px;
+    height: 100px;
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.adventures {
+    display: flex;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
