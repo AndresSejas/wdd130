@@ -14,10 +14,12 @@
 }
 
 body {
+    background-color: rgb(255, 235, 211);
     font-family: var(--body-font);
 }
 
 header {
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 40% 1fr;
     place-items: center;
@@ -26,6 +28,7 @@ header {
 nav a {
     text-decoration: none;
     padding: 20px;
+    color: white;
 }
 
 nav ul {
