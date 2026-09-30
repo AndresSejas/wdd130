@@ -3,6 +3,7 @@
     --secondary-color: orange;
     --accent1-color: rgb(6, 6, 6);
     --accent2-color: #0b4b30;
+    --accent3-color: rgb(252, 237, 209);
     --heading-font: 'Montserrat', sans-serif;
     --body-font: 'Open Sans', sans-serif;
 }
@@ -14,7 +15,7 @@
 }
 
 body {
-    background-color: rgb(252, 237, 209);
+    background-color: var(--accent3-color);
     font-family: var(--body-font);
 }
 
@@ -106,6 +107,7 @@ h2 {
 
 .hero article p {
     margin: 0 auto;
+    color: var(--accent1-color);
 }
 
 section p {
@@ -145,7 +147,7 @@ footer p {
 }
 
 figure {
-    border: thin rgb(0, 0, 0) solid;
+    border: thin var(--accent1-color) solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -161,7 +163,7 @@ figure img {
 }
 
 figcaption {
-    background-color: #222222;
+    background-color: var(--accent1-color);
     color: white;
     font: italic smaller sans-serif;
     padding: 3px;
