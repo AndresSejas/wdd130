@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(0, 0, 125);
+    --primary-color: rgb(0, 0, 102);
     --secondary-color: orange;
     --accent1-color: rgb(6, 6, 6);
     --accent2-color: #0b4b30;
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: rgb(255, 235, 211);
+    background-color: rgb(252, 237, 209);
     font-family: var(--body-font);
 }
 
