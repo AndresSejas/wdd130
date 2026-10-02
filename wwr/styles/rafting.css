@@ -253,3 +253,20 @@ button {
     border: none;
     font-size: 1rem;
 }
+
+.contacts h1 {
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--accent4-color);
+    margin: 0;
+    padding: 15px;
+}
+
+.contacts p {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
